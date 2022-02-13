@@ -1,0 +1,75 @@
+.about{
+    height: 100vh;
+  
+align-items: center;
+justify-content: center;
+display: flex;
+
+
+
+}
+
+
+.about_left{
+    flex:1;
+    align-items: center;
+    justify-content: center;
+ 
+
+
+
+}
+
+.about_image{
+    height: 15%;
+   width: 50%;
+   padding:20%;
+  
+
+}
+
+.about_right{
+    display: flex;
+  flex-direction: column;
+  flex: 1;
+  text-align: center;
+  margin-right: 100px;
+}
+
+
+.about_title{
+ font-size: 6.5rem;
+ 
+
+    font-family: 'Qwitcher Grypen', cursive;
+}
+
+.about_description{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+}
+
+.about_intro{
+    font-size: 1rem;
+
+}
+
+@media (max-width:1000px){
+    
+    .about_title{
+        font-size:4rem;
+      
+    }
+
+    .about_description{
+        font-size:1.25rem;
+        line-height: 1.75rem;
+ 
+    }
+
+    .about_intro{
+        font-size: 0.875rem;
+    }
+}
